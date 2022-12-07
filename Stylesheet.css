@@ -13,13 +13,10 @@
 }
 
 .leftside {
-    width: auto;
+    width: 50%;
     height: auto;
     background-color: darkkhaki;
-    padding: 10px;
-    
-    
-    
+    padding: 10px;    
 }
 
 a {
@@ -102,11 +99,11 @@ a {
 }
 
 .rightside {
-    width: 30%;
+    width: 25%;
     height: auto;
     background-color: rgb(88, 222, 175);
     padding: 10px;
-    border: 2px solid black;
+    float
 }
 
 .rightside-block {
@@ -137,19 +134,90 @@ a {
 p.label {
     padding: 10px;
     color: rgb(238, 231, 231)
-}
+    
+}   
+
 
 .midder {
-    width: auto;
     height: auto;
-    background-color: rgb(55, 70, 65);
+    width: auto;
     padding: 10px;
-    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red
 }
 
+
 .Midder-block {
-    width: auto;
+    width: 25%;
     height: auto;
     background-color: rgb(190, 102, 86);
     padding: 10px;
 }
+
+.parent-block3 {
+    display: flex;
+    width: auto;
+    padding: 20px;
+    height: auto;
+    background-color: violet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.child-block3 {
+    width: 100px;
+    height: 200px;
+    background-color:rgb(21, 188, 218);
+    align-self: flex-end;
+}
+
+.parent-block4 {
+    display: flex;
+    width: auto;
+    padding: 20px;
+    height: auto;
+    background-color: violet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.child-block4 {
+    width: 100px;
+    height: 200px;
+    background-color:rgb(21, 188, 218);
+    align-self: flex-end;
+}
+
+.parent-block5 {
+    display: flex;
+    width: auto;
+    padding: 20px;
+    height: auto;
+    background-color: violet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.child-block5 {
+    width: 100px;
+    height: 200px;
+    background-color:rgb(21, 188, 218);
+    align-self: flex-end;
+}
+
+.label3 {
+    margin-left:auto;
+    color: aliceblue;
+}
+
+.label4 {
+    margin-left: auto;
+    color: aliceblue;
+}
+
+.label5 {
+    margin-left: auto;
+    color: aliceblue;
+}
+
